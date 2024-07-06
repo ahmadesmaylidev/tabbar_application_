@@ -24,10 +24,10 @@ class _HomeScreenState extends State<HomeScreen>
           children: [
             TabBar(controller: _tabController, tabs: const [
               Tab(
-                text: 'باکس زرد',
+                text: 'Followers',
               ),
               Tab(
-                text: 'باکس قرمز',
+                text: 'Following',
               )
             ]),
             Expanded(
